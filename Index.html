@@ -1,2 +1,85 @@
-vdhxg
-djvjckv
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="DutchNews1 — snel, helder en betrouwbaar nieuws uit Nederland en de wereld." />
+  <title>DutchNews1 — Nieuws van dichtbij</title>
+  <style>
+    :root { --ink:#122033; --muted:#667085; --paper:#f7f9fc; --card:#fff; --blue:#155eef; --orange:#ff7a45; --line:#e6eaf0; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--paper); font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    a { color:inherit; text-decoration:none; }
+    .topline { height:6px; background:linear-gradient(90deg,var(--blue) 0 72%,var(--orange) 72%); }
+    header { background:#fff; border-bottom:1px solid var(--line); }
+    .wrap { width:min(1160px, calc(100% - 40px)); margin:auto; }
+    .masthead { display:flex; align-items:center; justify-content:space-between; padding:22px 0 18px; gap:24px; }
+    .brand { display:flex; align-items:center; gap:12px; font-weight:900; letter-spacing:-1.5px; font-size:30px; }
+    .brand-mark { display:grid; place-items:center; width:42px; height:42px; color:#fff; background:var(--blue); border-radius:13px; font-size:20px; box-shadow:8px 8px 0 #dbe7ff; }
+    .brand span { color:var(--blue); }
+    .date { color:var(--muted); font-size:14px; }
+    nav { display:flex; gap:26px; overflow:auto; padding:0 0 15px; font-size:14px; font-weight:750; white-space:nowrap; }
+    nav a:first-child { color:var(--blue); }
+    .hero { display:grid; grid-template-columns:1.3fr .7fr; gap:20px; padding:34px 0 22px; }
+    .lead { min-height:410px; border-radius:22px; padding:30px; display:flex; flex-direction:column; justify-content:end; color:#fff; overflow:hidden; background:linear-gradient(180deg,rgba(13,30,55,.05),rgba(13,30,55,.9)), url('https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1400&q=80') center/cover; }
+    .label { display:inline-flex; width:max-content; border-radius:99px; padding:7px 11px; background:var(--orange); color:#fff; font-size:11px; font-weight:850; letter-spacing:.08em; text-transform:uppercase; }
+    h1 { max-width:690px; margin:13px 0 9px; font-size:clamp(31px,5vw,55px); line-height:1.02; letter-spacing:-2.5px; }
+    .lead p { max-width:570px; margin:0; color:#e6edf8; font-size:16px; line-height:1.5; }
+    .side { display:grid; gap:20px; }
+    .story { display:grid; grid-template-columns:120px 1fr; gap:18px; padding:15px; background:var(--card); border:1px solid var(--line); border-radius:18px; }
+    .thumb { min-height:120px; border-radius:12px; background:center/cover; }
+    .story h2 { margin:8px 0 6px; font-size:20px; line-height:1.15; letter-spacing:-.5px; }
+    .story p { margin:0; color:var(--muted); font-size:13px; line-height:1.4; }
+    .meta { color:var(--muted); font-size:11px; font-weight:750; text-transform:uppercase; letter-spacing:.06em; }
+    .section-head { display:flex; align-items:end; justify-content:space-between; border-bottom:2px solid var(--ink); padding:22px 0 10px; }
+    .section-head h2 { margin:0; font-size:25px; letter-spacing:-1px; }
+    .section-head a { color:var(--blue); font-size:13px; font-weight:800; }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; padding:20px 0 42px; }
+    .card { background:#fff; border:1px solid var(--line); border-radius:16px; overflow:hidden; }
+    .card-img { height:170px; background:center/cover; }
+    .card-body { padding:17px; }
+    .card h3 { margin:8px 0; font-size:20px; line-height:1.15; letter-spacing:-.5px; }
+    .card p { color:var(--muted); margin:0; font-size:14px; line-height:1.45; }
+    footer { background:var(--ink); color:#fff; padding:28px 0; }
+    footer .wrap { display:flex; justify-content:space-between; gap:20px; align-items:center; }
+    footer small { color:#b6c2d3; }
+    @media (max-width:780px) { .wrap { width:min(100% - 28px,1160px); } .masthead { align-items:flex-start; flex-direction:column; gap:10px; } .hero { grid-template-columns:1fr; } .lead { min-height:370px; } .grid { grid-template-columns:1fr; } footer .wrap { align-items:flex-start; flex-direction:column; } }
+    @media (max-width:500px) { .story { grid-template-columns:92px 1fr; gap:12px; } .thumb { min-height:100px; } .story h2 { font-size:17px; } }
+  </style>
+</head>
+<body>
+  <div class="topline"></div>
+  <header>
+    <div class="wrap">
+      <div class="masthead">
+        <a class="brand" href="#"><b class="brand-mark">D1</b> Dutch<span>News1</span></a>
+        <div class="date">Zaterdag 20 september 2026 · Amsterdam</div>
+      </div>
+      <nav aria-label="Hoofdnavigatie">
+        <a href="#">Voorpagina</a><a href="#binnenland">Binnenland</a><a href="#wereld">Wereld</a><a href="#economie">Economie</a><a href="#sport">Sport</a><a href="#cultuur">Cultuur</a><a href="#">Opinie</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <section class="hero">
+      <article class="lead">
+        <span class="label">Uitgelicht</span>
+        <h1>Een frisse blik op het nieuws van vandaag.</h1>
+        <p>De belangrijkste verhalen uit Nederland en de wereld — helder uitgelegd, zonder ruis.</p>
+      </article>
+      <div class="side">
+        <article class="story"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=500&q=80')"></div><div><div class="meta">Binnenland · 12 min</div><h2>Steden maken ruimte voor de buurt van morgen</h2><p>Nieuwe plannen zetten in op groen, wonen en bereikbaarheid.</p></div></article>
+        <article class="story"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=500&q=80')"></div><div><div class="meta">Economie · 28 min</div><h2>Wat betekenen de nieuwe cijfers voor jouw portemonnee?</h2><p>Een overzicht van de ontwikkelingen die vandaag tellen.</p></div></article>
+        <article class="story"><div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=500&q=80')"></div><div><div class="meta">Sport · 1 uur</div><h2>De voorbereiding op een spannend sportweekend</h2><p>Dit zijn de wedstrijden om naar uit te kijken.</p></div></article>
+      </div>
+    </section>
+    <div class="section-head"><h2>Meest gelezen</h2><a href="#">Bekijk alle verhalen →</a></div>
+    <section class="grid" id="binnenland">
+      <article class="card"><div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=700&q=80')"></div><div class="card-body"><div class="meta">Binnenland</div><h3>Waarom duurzame keuzes steeds dichterbij komen</h3><p>Van energie tot mobiliteit: kleine veranderingen met grote impact.</p></div></article>
+      <article class="card" id="wereld"><div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=700&q=80')"></div><div class="card-body"><div class="meta">Wereld</div><h3>De wereld in vijf minuten: dit moet je weten</h3><p>Een compact overzicht van het internationale nieuws.</p></div></article>
+      <article class="card" id="cultuur"><div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1577083552431-6e5fd01988a5?auto=format&fit=crop&w=700&q=80')"></div><div class="card-body"><div class="meta">Cultuur</div><h3>De kunst en ideeën die gesprekken starten</h3><p>Nieuwe makers, bijzondere plekken en verhalen die blijven hangen.</p></div></article>
+    </section>
+  </main>
+  <footer><div class="wrap"><strong>DutchNews1</strong><small>Onafhankelijk nieuws. Dichtbij gebracht.</small><small>© 2026 DutchNews1</small></div></footer>
+</body>
+</html>
