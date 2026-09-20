@@ -5,8 +5,11 @@ description: >-
 baseurl: ""
 url: "https://bnowee.github.io/dutchnews1"
 
+remote_theme: pages-themes/cayman@v0.2.0
+
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 markdown: kramdown
 permalink: pretty
