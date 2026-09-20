@@ -1,0 +1,18 @@
+title: DutchNews1
+email: info@dutchnews1.nl
+description: >-
+  Een moderne nieuwssite uit Nederland met actuele berichtgeving, opinie en achtergrond.
+baseurl: ""
+url: "https://bnowee.github.io/dutchnews1"
+
+plugins:
+  - jekyll-feed
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+  - vendor

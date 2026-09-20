@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="{{ site.description }}" />
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+  </head>
+  <body>
+    <div class="topline"></div>
+    <header class="site-header">
+      <div class="wrap">
+        <div class="masthead">
+          <a class="brand" href="{{ '/' | relative_url }}"><span class="brand-mark">D1</span> <span class="brand-text">Dutch<span>News1</span></span></a>
+          <div class="date">Zaterdag 20 september 2026 · Amsterdam</div>
+        </div>
+        <nav class="main-nav" aria-label="Hoofdnavigatie">
+          <a href="{{ '/' | relative_url }}">Voorpagina</a>
+          <a href="#">Binnenland</a>
+          <a href="#">Wereld</a>
+          <a href="#">Economie</a>
+          <a href="#">Sport</a>
+          <a href="#">Cultuur</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-content">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-row">
+        <strong>DutchNews1</strong>
+        <small>Onafhankelijk nieuws. Dichtbij gebracht.</small>
+        <small>© 2026 DutchNews1</small>
+      </div>
+    </footer>
+  </body>
+</html>
